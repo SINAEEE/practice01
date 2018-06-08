@@ -13,6 +13,6 @@ s = """
 
 #print(s.splitlines())
 #print(s.replace('<','').replace('>','').replace('/',''))
-print(s[1:7])
+print(s.replace(s[1:49],''))
 
 
