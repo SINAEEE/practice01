@@ -10,6 +10,9 @@ s = """
     </body>
 </html>"""
 
-print(s)
+
+#print(s.splitlines())
+#print(s.replace('<','').replace('>','').replace('/',''))
+print(s[1:7])
 
 
