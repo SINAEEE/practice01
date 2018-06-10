@@ -15,4 +15,3 @@ s = """
 #print(s.replace('<','').replace('>','').replace('/',''))
 print(s.replace(s[1:49],''))
 
-

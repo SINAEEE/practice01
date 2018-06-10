@@ -11,3 +11,5 @@ if(num.isdigit()):
         print("3의 배수가 아닙니다.")
 else:
     print("정수가 아닙니다.")
+
+

@@ -14,3 +14,4 @@ avg = t/5
 
 print("리스트 : ",lst)
 print("평균 : ",avg)
+

@@ -21,3 +21,4 @@ str1 = input("입력 > ")
 result=str1[::-1]
 print(result)
 """
+
