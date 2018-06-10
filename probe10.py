@@ -1,13 +1,14 @@
 
+d=dict()
 menu = input('메뉴: ')
 
 if menu == '오뎅':
-    price = 300
+    d={'오뎅':300}
 elif menu == '순대':
-    price = 400
+    d={'순대':400}
 elif menu == '만두':
-    price = 500
+    d={'만두':500}
 else:
-    price = 0
+    d[menu] = 0
 
-print('가격: {0}'.format(price))
+print('가격:{0}'.format(d[menu]))
