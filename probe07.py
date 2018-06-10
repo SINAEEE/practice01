@@ -27,11 +27,3 @@ for k,v in d.items():
     print("{0} : {1}개".format(k,v))
 
 
-print()
-
-
-
-
-
-
-
