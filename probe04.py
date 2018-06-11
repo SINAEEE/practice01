@@ -13,7 +13,13 @@ s = """
 </html>"""
 
 
-#print(s.splitlines())
-#print(s.replace('<','').replace('>','').replace('/',''))
-print(s.replace(s[1:49],''))
+
+import re
+
+def remove_tag(content):
+    cleaner = re.compile(('<.*?>'))
+    cleantext = re.sub(cleaner,'',content)
+    return cleantext
+
+print(remove_tag(s))
 
