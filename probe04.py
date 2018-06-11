@@ -20,3 +20,4 @@ def remove_tag(content):
     return cleantext
 
 print(remove_tag(s))
+
