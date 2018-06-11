@@ -1,4 +1,6 @@
 
+# 문제4. 다음과 같은 텍스트에서 모든 태그를 제외한 텍스트만 출력하세요.
+
 s = """
 <html>
     <body style='background-color:#ffff'>
@@ -11,13 +13,7 @@ s = """
 </html>"""
 
 
-
-import re
-
-def remove_tag(content):
-    cleaner = re.compile(('<.*?>'))
-    cleantext = re.sub(cleaner,'',content)
-    return cleantext
-
-print(remove_tag(s))
+#print(s.splitlines())
+#print(s.replace('<','').replace('>','').replace('/',''))
+print(s.replace(s[1:49],''))
 
